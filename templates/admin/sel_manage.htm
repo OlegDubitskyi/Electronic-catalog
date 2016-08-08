@@ -1,0 +1,58 @@
+<form method="post" action="index.php">
+<h3 align=center>Управление фирмами-продавцами</h3>
+<table border="0" width="100%" cellpadding="0" cellspacing="0">
+	<tr>
+		<td width="24">&nbsp;</td>						
+		<td>
+			<table class="rows" border="0" cellpadding="0" cellspacing="0" align="center">
+				<tr>
+					<td width="" class="header" style="TEXT-ALIGN: left; PADDING-LEFT: 15px;">Название</td>
+					<td width="" class="header">Сайт</td>					
+					<td width="" class="header">Кол-во позиций</td>
+					<td width="" class="header">Статус</td>
+					<td width="" class="header">Действия</td>
+				</tr>
+{if count($sellers)>0}
+	{foreach name=sellers from=$sellers item=s}
+			  	<tr {if $smarty.foreach.sellers.index%2==0}class=m{/if}>
+					<td class=al height="30"><a href="index.php?cmd=edit_seller&id={$s.id}">{$s.company_name}</a></td>
+					<td><a href="http://{$s.url}" target="new">{$s.url}</a></td>					
+					<td>{$s.num_rows}</td>
+					<td>{$s.status}</td>
+					<td width="150">
+						<table border="0" cellpadding="0" cellspacing="0">
+							<tr>
+								<td style="BORDER-BOTTOM:none">
+									<a href="index.php?cmd=del_seller&id={$s.id}">Удалить</a>
+								</td>
+								<td style="BORDER-BOTTOM:none">
+									<a href="index.php?cmd=change_status&id={$s.id}" title="Изменение статуса компании">
+									{if $s.status==1}
+										Inactive
+									{else}
+										Active
+									{/if}
+									</a>
+								</td>
+							</tr>
+						</table>
+					</td>
+  				</tr>
+	{/foreach}	  
+{else}
+				<tr class=m>
+					<td colspan="4" class="row1" align="center" height=30>Список пуст</td>
+				</tr>
+{/if}
+			</table>
+		</td>
+		<td width="24">&nbsp;</td>								
+	</tr>
+	<tr>
+		<td width="24">&nbsp;</td>						
+		<td align="right">
+			<a href=index.php?cmd=add_seller>Добавить</a>
+		</td>
+		<td width="24">&nbsp;</td>								
+	</tr>
+</table>

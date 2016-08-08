@@ -1,0 +1,60 @@
+<?php /* Smarty version 2.6.12, created on 2007-03-17 23:40:39
+         compiled from menu.htm */ ?>
+<table cellspacing="0" cellpadding="3" border="0">
+<tr>
+    <td><a href="index.php?cmd=show_sellers">Фирмы</a></td>
+</tr>
+<tr>
+    <td><a href="index.php?cmd=show_stat">Статистика</a></td>
+</tr>
+<tr>
+    <td><a href="index.php?cmd=edit_cat">Каталог</a></td>
+</tr>
+<tr>
+    <td><a href="index.php?cmd=region">Редактирование регионов</a></td>
+</tr>
+<tr>
+    <td><a href="index.php?cmd=vendors_goods">Товар->Вендор</a></td>
+</tr>
+<tr>
+    <td><a href="index.php?cmd=reg_list">Cписок регистрации</a></td>
+</tr>
+<tr>
+    <td><a href="index.php?cmd=edit_board_cat">Каталог Объявлений</a></td>
+</tr>
+<tr>
+    <td><a href="index.php?cmd=edit_curs">Курс по умолчанию</a></td>
+</tr>
+<tr>
+    <td><a href="index.php?cmd=mailer">Mailer</a></td>
+</tr>
+<!--
+<tr>
+    <td><a href="index.php?cmd=email">Рассылка</a></td>
+</tr>
+<tr>
+    <td><a href="index.php?cmd=users">Пользователи</a></td>
+</tr>
+<tr>
+    <td><a href="index.php?cmd=forum">Форум</a></td>
+</tr>
+<tr>
+    <td><a href="index.php?cmd=board">Доска объявлений</a></td>
+</tr>
+<tr>
+    <td><a href="index.php?cmd=news">Новости</a></td>
+</tr>
+<tr>
+    <td><a href="index.php?cmd=promo">Реклама</a></td>
+</tr>
+<tr>
+    <td><a href="index.php?cmd=decs">Описания</a></td>
+</tr>
+<tr>
+    <td><a href="index.php?cmd=review">Обзоры</a></td>
+</tr>
+<tr>
+    <td><a href="index.php?cmd=articles">Статьи</a></td>
+</tr>
+--->
+</table>

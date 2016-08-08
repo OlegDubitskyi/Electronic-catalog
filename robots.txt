@@ -1,0 +1,3 @@
+User-Agent: Yandex
+Disallow: 
+Host: webcat.com.ua

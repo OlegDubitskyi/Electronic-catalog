@@ -1,0 +1,1 @@
+add=>Add; ren=>Rename;delone=>Delete node;delall=>Delete branch; trans=>Transfer; to=>to; transtree=>Transfer in Tree;up=>up;down=>down

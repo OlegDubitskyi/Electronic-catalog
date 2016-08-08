@@ -1,0 +1,19 @@
+Доступ к админ-панели:
+	Имя пользователя (login): webcat.com.ua
+	Пароль:  c9e670
+Панель администрирования хостинга находиться по адресу: http://storm.cityhost.com.ua/vhcs2/
+
+FTP:
+	сервер:62.149.12.120
+	логин:webcat@webcat.com.ua
+	пароль:topliner
+MySQL:
+	dbname: 55_webcat
+	user:root_55
+	pass:torpeda
+
+	тестовая база: test_55
+	пользователь: root_55
+	
+ICQ: 480-62-49-80
+pas: torpeda

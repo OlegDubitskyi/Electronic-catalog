@@ -1,0 +1,13 @@
+<table border="5" cellspacing="0" cellpadding="0" height=100% width=100% bgcolor=#ffffff>
+	<tr>
+		<td colspan=2 height=15>&nbsp;</td>
+	</tr>
+{foreach from=$catalog item=catalog}
+	<tr>
+		<td nowrap>{$catalog.prefix}<a href="index.php?showcat={$catalog.cat_id}">{$catalog.cat_name}</a></td>
+	</tr>
+{/foreach}
+
+		</td>
+	</tr>
+</table>

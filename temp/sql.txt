@@ -1,0 +1,5 @@
+SELECT model_name,
+       sum(case when seller_id='7' then price else 0 end) as lider,
+       sum(case when seller_id='8' then price else 0 end) as kartrig
+
+       FROM goods where model_name='1600 black' group by model_name;

@@ -1,0 +1,3 @@
+ErrorDocument 401 http://domain.com/nopasswd.html
+ErrorDocument 403 templates/forbidden.html
+ErrorDocument 404 nofile.htm
